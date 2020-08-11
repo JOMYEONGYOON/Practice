@@ -1,9 +1,11 @@
+package algorithm;
+
 import java.util.Scanner;
 
-public class Main {
+public class Question2884 {
 public static void main(String[] args) {
 	final int H = 24;
-	final int M = 60; // 안써도 됬던 상수 
+	final int M = 60; // 
 	int h;
 	int m;
 	

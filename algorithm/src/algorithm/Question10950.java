@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.Scanner;
 
-public class Question1330 {
+public class Question10950 {
 	public static void main(String[] args) {
 		int A; int B;
 		

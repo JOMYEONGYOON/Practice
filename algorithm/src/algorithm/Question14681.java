@@ -1,6 +1,7 @@
+package algorithm;
 import java.util.Scanner;
 
-public class Main {
+public class Question14681 {
 public static void main(String[] args) {
 	int X;
 	int Y;
