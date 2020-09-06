@@ -1,9 +1,9 @@
-package Test;
+package algorithm;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;
  
-public class Main {
+public class Question1152 {
  
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
