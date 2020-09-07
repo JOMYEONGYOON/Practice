@@ -1,27 +1,30 @@
 package Test;
 
 import java.util.Scanner;
-
+import java.io.IOException;
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Scanner scanner = new Scanner(System.in);
-		String n1 = scanner.nextLine();
-		String n2 = scanner.nextLine();
-		int len1 = n1.length();//문자열의 길이를 저장하는 변수
-		int len2 = n2.length();//문자열의 길이를 저장하는 변수
+		String n1 = scanner.next();
+		String n2 = scanner.next();
+		
 	
 		String temp = "";
 	
-		for(int i=len1-1;i>=0;i--) {
-			temp = temp + n1.charAt(i);
-			n1 = temp;
 	
-		}
-		for(int j=len2-1;j>=0;j--) {
-			temp += n2.charAt(j);
+		for(int i = n1.length()-1; i >= 0 ; i--) 
+			temp += n1.charAt(i);
+		n1 = temp;
+		
+		temp = "";
+		
+		
+		for(int i = n2.length()-1; i >= 0;i--) 
+			temp += n2.charAt(i);
 			n2 = temp;
-		}
+		
+
 		
 		int num1 = Integer.parseInt(n1);
 		int num2 = Integer.parseInt(n2);
